@@ -83,7 +83,7 @@ class MyGame(arcade.Window):
         self.ball.move() 
         
 
-       #me made changes here____________!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_____________________________________________________________________     
+           
         return super().update(delta_time)
 
 
