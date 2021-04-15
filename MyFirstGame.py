@@ -83,40 +83,7 @@ class MyGame(arcade.Window):
         self.ball.move() 
         
 
-        # i=5 
-        # a = self.bird.start_angle
-        # b = self.bird.end_angle
-        # while(i>=1):
-           
-        #     if(self.bird.height>=0):
-                
-        #         self.bird.height-=1
-        #         # self.bird.start_angle=0
-        #         # self.bird.end_angle=180
-                
-        #     elif(self.bird.height<=180): # hv to change this condition >:c
-        #         a = b
-        #         self.bird.end_angle = self.bird.start_angle
-        #         self.bird.start_angle = a
-        #         b = self.bird.end_angle
-        #         self.bird.height+=1
-            
-        #     else:
-               
-        #         a = b
-        #         self.bird.end_angle = self.bird.start_angle
-        #         self.bird.start_angle = a
-        #         b = self.bird.end_angle
-        #         # a=b
-        #         # self.bird.end_angle=self.bird.end_angle
-        #         # self.bird.start_angle=b 
-        #     # a=b
-        #     # self.bird.end_angle=self.bird.end_angle
-        #     # self.bird.start_angle=b 
-        #     # b = self.bird.start_angle
-        #     # a = self.bord.end_angle
-            
-        # #     i=i-1      
+        
         return super().update(delta_time)
 
 
