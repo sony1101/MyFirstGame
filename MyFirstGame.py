@@ -24,7 +24,7 @@ class MyGame(arcade.Window):
         arcade.set_background_color(arcade.color.WHITE)
        # self.bird = Bird(500, 500, 180, 180, 0, 180, 5)
         self.man = Man(30, 100, 10, 2, 1, ":resources:images/animated_characters/female_person/femalePerson_idle.png" )
-        self.ball = Ball(30, 700, 10, 0, -1, 2)
+        self.ball = Ball(50, 700, 10, 0, -1, 2)
         self.spriteList = arcade.SpriteList()
         self.spriteList.append(self.man)        
         print ("setup called")
@@ -83,40 +83,7 @@ class MyGame(arcade.Window):
         self.ball.move() 
         
 
-        # i=5 
-        # a = self.bird.start_angle
-        # b = self.bird.end_angle
-        # while(i>=1):
-           
-        #     if(self.bird.height>=0):
-                
-        #         self.bird.height-=1
-        #         # self.bird.start_angle=0
-        #         # self.bird.end_angle=180
-                
-        #     elif(self.bird.height<=180): # hv to change this condition >:c
-        #         a = b
-        #         self.bird.end_angle = self.bird.start_angle
-        #         self.bird.start_angle = a
-        #         b = self.bird.end_angle
-        #         self.bird.height+=1
             
-        #     else:
-               
-        #         a = b
-        #         self.bird.end_angle = self.bird.start_angle
-        #         self.bird.start_angle = a
-        #         b = self.bird.end_angle
-        #         # a=b
-        #         # self.bird.end_angle=self.bird.end_angle
-        #         # self.bird.start_angle=b 
-        #     # a=b
-        #     # self.bird.end_angle=self.bird.end_angle
-        #     # self.bird.start_angle=b 
-        #     # b = self.bird.start_angle
-        #     # a = self.bord.end_angle
-            
-        # #     i=i-1      
         return super().update(delta_time)
 
 
